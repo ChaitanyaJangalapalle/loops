@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //printing 1 to 10 numbers...
+
+        for(i=1;i<=10;i++){
+        console.log(i)       //prints 1 to 10 numbers
+        }
+        console.log("printing of 1 to 10 numbers completed");
+
+         //printing even numbers..
+
+        for(i=0;i<=20;i++){
+            if(i%2==0){
+                console.log(i)  //prints even numbers
+            }
+        }
+        console.log("printing of even numbers completed");
+
+
+        //prints multiples of 5
+
+        for(i=0;i<=50;i++){
+            if(i%5==0){
+                console.log(i)  //prints multiples of 5
+            }
+        }
+        console.log("printing of multiples of 5 completed");
+
+
+        //sum of 100 numbers..
+        var sum=0;
+        for(var a=1;a<=100;a++){
+            sum+=a
+        }
+        console.log(sum)
+        console.log("printing of sum of 100 numbers completed");
+
+        //factorial of numbers...
+
+
+        var integer=+prompt("enter a number to factorial")
+        var factorial=1;
+        for(var i=1;i<=integer;i++){
+            factorial *=i;
+        }
+        console.log(factorial);
+        console.log("printing of factorial completed");
+
+
+        //Reverse of a numbers..
+
+
+        for(i=10;i>0;i--){
+            console.log(i)      //reverse numbers.
+        }
+        console.log("printing of reverse numbers completed");
+
+        //Ascii values
+        let emp="";
+        for(i=65;i<=90;i++){
+            emp+=String.fromCharCode(i)
+            console.log(String.fromCharCode(i));
+    }
+    console.log(emp);
+
+    </script>
+</body>
+</html>
